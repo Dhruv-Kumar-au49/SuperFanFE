@@ -1,0 +1,67 @@
+.signup-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+  }
+  
+  .signup-page-heading {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .signup-page-fornm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .signup-page-fornm div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  
+  .signup-page-fornm label {
+    font-size: 1rem;
+  }
+  
+  .signup-page-fornm input[type='text'],
+  .signup-page-fornm input[type='email'],
+  .signup-page-fornm input[type='password'],
+  .signup-page-fornm input[type='file'] {
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    outline: none;
+  }
+  
+  .signup-btn {
+    background-color: #0077cc;
+    color: #fff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.8rem 1.5rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .signup-btn:hover {
+    background-color: #35ae13;
+  }
+  
+  .signup-page div:last-child {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  

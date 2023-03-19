@@ -1,0 +1,36 @@
+.welcome-page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    text-align: center;
+  }
+  
+  .welcome-page-heading {
+    font-size: 3rem;
+    margin-bottom: 200px;
+  }
+  
+  .welcome-page-content p {
+    font-size: 2.2rem;
+    margin-bottom: 150px;
+  }
+  
+  .cta-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #101010;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-btn:hover {
+    background-color: #fa2803;
+    color: #101010;
+  }
+  

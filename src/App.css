@@ -1,0 +1,127 @@
+
+*{
+  margin: 0;
+  font-family: 'Varela Round', sans-serif;
+}
+
+body{
+  background-image: url('https://images.pexels.com/photos/1902415/pexels-photo-1902415.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-position: center;
+}
+
+a {
+  color: rgb(247, 251, 247);
+  text-decoration: none;
+}
+
+a:hover{
+  color: #0e0e0e;
+  transition: 1s;
+  transition-delay: 0.3s;
+   transform: scale(1.1);
+}
+
+.heading{
+  font-size: 45px;
+  position: relative;
+  right: 45%;
+}
+li{
+  padding: 10px;
+  border-radius: 6px;
+  color: aliceblue;
+  border: 2px solid red;
+}
+li:hover{
+  background-color: red;
+  transition: 1s;
+  transition-delay: 0.3s;
+   transform: scale(1.1);
+     }
+.header-list{
+  cursor: pointer;
+  position: absolute;
+  left: 64%;
+  top: 6%;
+  font-size: 25px;
+  width: 30%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+list-style: none;
+color: antiquewhite;
+
+}
+.header{
+  text-align: center;
+  color: antiquewhite;
+border: 1px solid rgb(12, 12, 12);
+padding: 2%;
+background-color: black;
+
+}
+
+
+
+.form-group {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+} 
+
+.center {
+  text-align: center;
+}
+
+.row {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-name-productlist{
+  color: black;
+}
+
+.column {
+  cursor: pointer;
+  flex: 20%;
+  max-width: 100%;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: 5px;
+  background-color: rgba(244, 149, 240, 0.603);
+}
+.column:hover{
+  background-color: red;
+  transition: 1s;
+  transition-delay: 0.3s;
+   transform: scale(1.1);
+     }
+
+
+.form-group button:hover {
+  background-color: #2980b9;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  margin-top: 30px;
+  text-align: center;
+  min-height: 4vh;
+  width: 100%;
+  color: antiquewhite;
+  background-color: black;
+}
+
